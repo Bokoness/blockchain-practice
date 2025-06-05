@@ -1,0 +1,10 @@
+[package]
+name = "listener_lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethers = { version = "2", default-features = false, features = ["ws", "rustls"] }
+tokio = { version = "1", features = ["full"] }
+tokio-stream = "0.1"
+
