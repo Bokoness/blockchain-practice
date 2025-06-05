@@ -1,0 +1,8 @@
+[package]
+name = "block_printer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+listener_lib = { path = "../listener_lib" }
+tokio = { version = "1", features = ["full"] }

@@ -1,0 +1,3 @@
+[workspace]
+members = ["listener_lib", "block_printer"]
+resolver = "2"
